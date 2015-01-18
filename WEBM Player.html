@@ -16,6 +16,7 @@ var selectedvideo
 var file=[];
 var fileInput
 var files
+var tempvar
 var displayselected=false
 function playvideo(){
 	if(document.getElementById("displayselected").checked){
@@ -63,14 +64,21 @@ function playvideo(){
 		document.getElementById("selectedvideo").innerHTML=(file[selectedvideo])
 	}
 	
-	for (i = 0; i < files.length; i++) {
-		preload(window.URL.createObjectURL(files[i]))
-	}
+//	for (i = 0; i < files.length; i++) {
+//		preload(window.URL.createObjectURL(files[i]))
+//		console.log("Percent loaded: "+Math.floor((100/files.length)*i))
+//		tempvar1=i
+//		console.log(tempvar1+" out of "+(files.length-1))
+//	}
 	
-	videotoplay = file[selectedvideo]
 	fileURL = window.URL.createObjectURL(files[selectedvideo])
-	console.log(fileURL)
-	playvid(fileURL)
+	
+//	if(tempvar1==(files.length-1)) 
+	actuallydoit();
+	
+	function actuallydoit(){
+		playvid(fileURL)
+	}
 
 	function playvid(video){
 		temporaryvariable1=file[selectedvideo].split(".")
