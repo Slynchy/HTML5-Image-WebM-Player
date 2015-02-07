@@ -11,4 +11,6 @@ How to install
 ================
 Just clone it/download ZIP and run the HTML file in Chrome. Simple. It MAY work on Firefox, but is not designed to.
 
+If you enabled auto mode, then use space bar to pause/play. Right/left arrow keys work as normal in auto mode.
+
 If you feel you can contribute, please do but it's a very simple app so there isn't much to contribute :P
