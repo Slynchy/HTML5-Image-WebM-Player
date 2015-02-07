@@ -1,11 +1,11 @@
-****HTML Image + WebM Player****
+****SlydeShow****
 ================
 
 What it is
 ================
-A simple WIP Chrome app that loads selected files on the filesystem, and plays/shows them properly, and allows the user to scroll through them with the arrow keys.
+A simple Chrome app that loads selected images, videos and SWF files on the filesystem, and plays/shows them properly, and allows the user to scroll through them with the arrow keys, or use a slideshow feature if they want.
 
-This is mainly aimed towards people who download a lot of WebMs and images and don't want to set up every WebM to loop, and don't have both hands free (if you get my drift).
+This is mainly aimed towards people who download a lot of WebMs, (video) SWFs and images and don't want to open all these files in their respective loaders to view them in one go. 
 
 How to install
 ================
